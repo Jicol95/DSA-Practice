@@ -3,3 +3,8 @@
 ################################################################################
 
 /DataStructures/.vs/DataStructures/v16
+/DataStructures/bin/Debug/netcoreapp3.1
+/DataStructures/obj
+/DataStructures.Searching/obj
+/DataStructures.Sorting/bin/Debug/netcoreapp3.1
+/DataStructures.Sorting/obj

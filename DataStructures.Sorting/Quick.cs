@@ -15,12 +15,12 @@
                 return;
             }
 
-            int pivot = partition(collection, start, end);
+            int pivot = Partition(collection, start, end);
             QuickSort(collection, start, pivot - 1);
             QuickSort(collection, pivot + 1, end);
         }
 
-        private static int partition(int[] collection, int start, int end) {
+        private static int Partition(int[] collection, int start, int end) {
             int pivot = collection[end];
             int i = start - 1;
 
